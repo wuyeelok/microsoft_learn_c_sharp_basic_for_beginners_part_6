@@ -7,5 +7,8 @@ string name2 = "Cherry";
 string friends = $"Hello, {name} and {name2}";
 Console.WriteLine(friends);
 
-Console.WriteLine(friends.Replace("Tom", "Susan"));
+friends = friends.Replace("Tom", "Daisy");
+Console.WriteLine(friends);
+
+
 
