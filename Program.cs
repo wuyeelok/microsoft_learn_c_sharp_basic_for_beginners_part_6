@@ -8,7 +8,11 @@ string friends = $"Hello, {name} and {name2}";
 Console.WriteLine(friends);
 
 friends = friends.Replace("Tom", "Daisy");
-Console.WriteLine(friends);
+Console.WriteLine($"friends Upper case: {friends.ToUpper()}");
+Console.WriteLine($"friends string length: {friends.Length}");
 
+Console.WriteLine($"Contains Daisy: {friends.Contains("Daisy")}");
+Console.WriteLine($"Contains Jimmy: {friends.Contains("Jimmy")}");
 
-
+Console.WriteLine($"Starts with Hello: {friends.StartsWith("Hello")}");
+Console.WriteLine($"Ends with Cherry: {friends.EndsWith("Cherry")}");
